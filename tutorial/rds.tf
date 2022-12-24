@@ -22,6 +22,7 @@ resource "aws_db_instance" "test_rds" {
     name                    = "testDB"
     username                = "guestUser"
     password                = "testtest"
+    skip_final_snapshot     = true # 인스턴스 제거 시 최종 스냅샷을 만들지 않고 제거하는 옵션 (default:true)
     vpc_security_group_ids  = [
         aws_security_group.blogPrivateSG.id,
     ]
