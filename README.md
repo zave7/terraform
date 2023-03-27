@@ -1,6 +1,6 @@
 # **Terraform**
 
-**`terraform`** 저장소는 **[Terraform](https://www.terraform.io/)**를 학습하기 위한 저장소입니다.
+**`terraform`** 저장소는 [Terraform](https://www.terraform.io/)를 학습하기 위한 저장소입니다.
 
 ## **Terraform 이란?**
 
